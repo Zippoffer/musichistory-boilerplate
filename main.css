@@ -3,7 +3,7 @@
 }
 body {
 	width: 90%;
-	margin: auto;
+	margin: 3em;
 	position: fixed;
 }
 label {
@@ -66,7 +66,7 @@ label.twos {
 div.twosAndThrees {
 	width: auto;
 }
-div.threesh: {
+li.threesh: {
 	display: inline;
 }
 table {
@@ -74,4 +74,17 @@ table {
 	padding-top: 1em;
 	padding-bottom: 2em;
 	text-align: justify;
+}
+.filter {
+	background-color: lightgray;
+	font-size: 1.3em;
+	border: 2px solid black;
+	text-align: left;
+}
+.selectbar {
+	width: 90%;
+	border: 1px solid black;
+}
+.rangebar {
+	position: relative;
 }
